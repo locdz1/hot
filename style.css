@@ -1,0 +1,62 @@
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    position: relative;
+    text-align: center;
+    background-color: rgb(237, 153, 248);
+  }
+.button{
+    margin-bottom: 20px;
+    background-color: rgb(255, 254, 254);
+    border: 0;
+    width: 300px;
+    padding: 15px 0 15px 0 ;
+    border-radius: 100px;
+    font-family: 'Beau Rivage', cursive;
+font-family: 'Rubik Bubbles', cursive;
+    transition-property:color, background-color;
+    box-shadow: 1px 9px 87px -7px rgba(179, 196, 26, 0.75);
+-webkit-box-shadow: 1px 9px 87px -7px rgba(65, 151, 231, 0.75);
+-moz-box-shadow: 1px 9px 100px -7px rgba(85, 5, 109, 0.75);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    width: 0 auto;
+}
+.button :hover{
+    color: rgb(212, 212, 44);
+    background-color: rgb(224, 15, 15);
+    transform: 100%;
+
+}
+h1{
+    font-family: 'Crimson Pro', serif;
+    font-size: 48px;
+    margin: 200px;
+    width: 0 auto;
+    font-family: 'Beau Rivage', cursive;
+font-family: 'Rubik Bubbles', cursive;
+        animation: colorBackground 0.5s infinite;
+        -webkit-animation: colorBackground 0.5s infinite;
+        -moz-animation: colorBackground 5s infinite;
+        -o-animation: colorBackground 0.5s infinite
+        }
+        @keyframes colorBackground {
+        0% {
+        background-color: yellowgreen;
+        color: white;
+        }
+        50% {
+        background-color: red;
+        color: yellow;
+        }
+        75% {
+            background-color: rgb(59, 46, 238);
+            color: rgb(255, 0, 179);
+    }
+        }
+form{
+    font-family: 'Beau+Rivage', cursive;
+    cursor: pointer;
+    width: 0 auto;
+}
